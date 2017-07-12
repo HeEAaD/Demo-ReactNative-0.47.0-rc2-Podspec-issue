@@ -5,6 +5,6 @@
   "author": "steffen.matthischke@gmail.com",
   "license": "",
   "dependencies": {
-    "react-native": "0.47.0-rc.2"
+    "react-native": "lovoo/react-native#podspec-fix-devsupport-dependency"
   }
 }
