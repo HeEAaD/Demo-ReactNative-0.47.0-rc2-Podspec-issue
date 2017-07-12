@@ -1,4 +1,4 @@
-# Demo project for React Native is #TBD
+# Demo project for React Native issue [#14975](https://github.com/facebook/react-native/issues/14975)
 
 To reproduce the bug execute the folling:
 1. `yarn install`
