@@ -9,23 +9,24 @@
 /* Begin PBXBuildFile section */
 		6A8A9CA91F1639560077491A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A9CA81F1639560077491A /* main.m */; };
 		6A8A9CAC1F1639560077491A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A9CAB1F1639560077491A /* AppDelegate.m */; };
-		6A8A9CAF1F1639560077491A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A9CAE1F1639560077491A /* ViewController.m */; };
 		6A8A9CB21F1639560077491A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8A9CB01F1639560077491A /* Main.storyboard */; };
 		6A8A9CB41F1639560077491A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8A9CB31F1639560077491A /* Assets.xcassets */; };
 		6A8A9CB71F1639560077491A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8A9CB51F1639560077491A /* LaunchScreen.storyboard */; };
+		9131406300278BB45ABBFFFF /* libPods-ReactNative Podspec Dependency Bug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCED68D831321660B27F58C3 /* libPods-ReactNative Podspec Dependency Bug.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33B2BA00A2972B34DB570ED2 /* Pods-ReactNative Podspec Dependency Bug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative Podspec Dependency Bug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNative Podspec Dependency Bug/Pods-ReactNative Podspec Dependency Bug.debug.xcconfig"; sourceTree = "<group>"; };
 		6A8A9CA41F1639560077491A /* ReactNative Podspec Dependency Bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNative Podspec Dependency Bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8A9CA81F1639560077491A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A8A9CAA1F1639560077491A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A8A9CAB1F1639560077491A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6A8A9CAD1F1639560077491A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6A8A9CAE1F1639560077491A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6A8A9CB11F1639560077491A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A8A9CB31F1639560077491A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A8A9CB61F1639560077491A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A8A9CB81F1639560077491A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFB832CFAA45A19B7C23D42 /* Pods-ReactNative Podspec Dependency Bug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative Podspec Dependency Bug.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNative Podspec Dependency Bug/Pods-ReactNative Podspec Dependency Bug.release.xcconfig"; sourceTree = "<group>"; };
+		FCED68D831321660B27F58C3 /* libPods-ReactNative Podspec Dependency Bug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNative Podspec Dependency Bug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +34,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9131406300278BB45ABBFFFF /* libPods-ReactNative Podspec Dependency Bug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51753AC46B8B83ED275259B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCED68D831321660B27F58C3 /* libPods-ReactNative Podspec Dependency Bug.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A8A9C9B1F1639560077491A = {
 			isa = PBXGroup;
 			children = (
 				6A8A9CA61F1639560077491A /* ReactNative Podspec Dependency Bug */,
 				6A8A9CA51F1639560077491A /* Products */,
+				E51ECCEED92F7DC01F259036 /* Pods */,
+				51753AC46B8B83ED275259B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +72,6 @@
 			children = (
 				6A8A9CAA1F1639560077491A /* AppDelegate.h */,
 				6A8A9CAB1F1639560077491A /* AppDelegate.m */,
-				6A8A9CAD1F1639560077491A /* ViewController.h */,
-				6A8A9CAE1F1639560077491A /* ViewController.m */,
 				6A8A9CB01F1639560077491A /* Main.storyboard */,
 				6A8A9CB31F1639560077491A /* Assets.xcassets */,
 				6A8A9CB51F1639560077491A /* LaunchScreen.storyboard */,
@@ -79,6 +89,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E51ECCEED92F7DC01F259036 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33B2BA00A2972B34DB570ED2 /* Pods-ReactNative Podspec Dependency Bug.debug.xcconfig */,
+				7AFB832CFAA45A19B7C23D42 /* Pods-ReactNative Podspec Dependency Bug.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A8A9CBB1F1639560077491A /* Build configuration list for PBXNativeTarget "ReactNative Podspec Dependency Bug" */;
 			buildPhases = (
+				99E880D5A6F6E2B02A394F56 /* [CP] Check Pods Manifest.lock */,
 				6A8A9CA01F1639560077491A /* Sources */,
 				6A8A9CA11F1639560077491A /* Frameworks */,
 				6A8A9CA21F1639560077491A /* Resources */,
+				68DF677894F7901FA82C27AE /* [CP] Embed Pods Frameworks */,
+				1F454BD12C662F4D903D0B81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,12 +167,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F454BD12C662F4D903D0B81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNative Podspec Dependency Bug/Pods-ReactNative Podspec Dependency Bug-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68DF677894F7901FA82C27AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNative Podspec Dependency Bug/Pods-ReactNative Podspec Dependency Bug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E880D5A6F6E2B02A394F56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A8A9CA01F1639560077491A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A8A9CAF1F1639560077491A /* ViewController.m in Sources */,
 				6A8A9CAC1F1639560077491A /* AppDelegate.m in Sources */,
 				6A8A9CA91F1639560077491A /* main.m in Sources */,
 			);
@@ -270,6 +339,7 @@
 		};
 		6A8A9CBC1F1639560077491A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B2BA00A2972B34DB570ED2 /* Pods-ReactNative Podspec Dependency Bug.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ReactNative Podspec Dependency Bug/Info.plist";
@@ -281,6 +351,7 @@
 		};
 		6A8A9CBD1F1639560077491A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFB832CFAA45A19B7C23D42 /* Pods-ReactNative Podspec Dependency Bug.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ReactNative Podspec Dependency Bug/Info.plist";
@@ -309,6 +380,7 @@
 				6A8A9CBD1F1639560077491A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
