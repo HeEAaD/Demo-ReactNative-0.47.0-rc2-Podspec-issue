@@ -1,0 +1,10 @@
+{
+  "name": "ReactNativePodspecDependencyBug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "steffen.matthischke@gmail.com",
+  "license": "",
+  "dependencies": {
+    "react-native": "0.47.0-rc.2"
+  }
+}
